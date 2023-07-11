@@ -21,7 +21,7 @@ h1 {
   width: 30vw;
   height: 30vw;
   perspective: 40vw;
-  margin-bottom: 2vw;
+  margin-bottom: 6vw;
 }
 
 .card {
@@ -44,7 +44,7 @@ h1 {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(1.14);
 }
 
 .front,
@@ -106,9 +106,6 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding: 1vw;
   box-sizing: border-box;
-  overflow: hidden; /* Textüberlauf ausblenden */
-  text-overflow: ellipsis; /* Text mit Ellipsen (...) abschneiden */
-  white-space: nowrap; /* Text in einer Zeile erzwingen */
 }
 
 .front img {
