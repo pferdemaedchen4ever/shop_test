@@ -106,6 +106,12 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding: 1vw;
   box-sizing: border-box;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
 
 .front img {
@@ -114,8 +120,20 @@ h1 {
 
 .text-block {
   margin-bottom: 2vw;
+  max-width: 100%; /* Hinzugefügte Regel */
+  max-height: 100%; /* Hinzugefügte Regel */
+  overflow: hidden; /* Hinzugefügte Regel */
 }
 
-footer {
-  margin-top: 10vw;
+@media screen and (max-width: 768px) {
+  .main-point {
+    width: 80vw; /* Geänderte Breite für die mobile Ansicht */
+    height: 80vw; /* Geänderte Höhe für die mobile Ansicht */
+    perspective: 80vw; /* Geänderte Perspektive für die mobile Ansicht */
+    margin-bottom: 6vw;
+  }
+  
+  .text-block {
+    font-size: 4vw; /* Geänderte Schriftgröße für die mobile Ansicht */
+  }
 }
