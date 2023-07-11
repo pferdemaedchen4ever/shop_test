@@ -106,6 +106,9 @@ h1 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding: 1vw;
   box-sizing: border-box;
+  overflow: hidden; /* Textüberlauf ausblenden */
+  text-overflow: ellipsis; /* Text mit Ellipsen (...) abschneiden */
+  white-space: nowrap; /* Text in einer Zeile erzwingen */
 }
 
 .front img {
