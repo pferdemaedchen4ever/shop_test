@@ -18,8 +18,8 @@ h1 {
 }
 
 .main-point {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   perspective: 800px;
   margin-bottom: 60px;
 }
