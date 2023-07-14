@@ -27,6 +27,8 @@ body {
     background-position: 100px 0;
   }
 }
+
+/* Geänderte Regel für die Wellen */
 body:before {
   content: "";
   position: absolute;
@@ -70,19 +72,8 @@ h1.fade-in {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 5vw;
 }
-
-.main-point:nth-child(odd) {
-  transform: translateX(-15%);
-}
-
-.main-point:nth-child(even) {
-  transform: translateX(15%);
-}
-
-
 
 .main-point {
   width: 20vw;
